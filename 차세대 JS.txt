@@ -1,0 +1,28 @@
+var의 대체재
+- let : 지역변수
+- const : 상수
+
+ES6 Arrow function
+- JS환경에서 함수를 생성하는 방법.
+- this의 키워드 범위를 유지하는데 있어 이점을 제공
+
+예시)
+function callMe(name) {
+    console.log(name)
+}
+
+const callMe = function(name) {
+    console.log(name)
+}
+
+const callMe = (name) => {
+    console.log(name)
+}
+
+arguments가 없는 경우, 함수 선언시 빈 괄호를 사용한다.
+arguments가 하나인 경우, 괄호를 생략할 수 있다.
+
+다른 파일에서 해당 파일의 기능에 액세스하려면 export.
+다른 파일의 기능을 사용하려면 import
+
+class 사용 시 상속 가능
